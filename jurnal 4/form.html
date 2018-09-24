@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title> SELAMAT DATANG </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form method="POST" action="proses.php" enctype="multipart/form-data">
+        Hobby : <br>
+        <input type="checkbox" name="hobby[]" id="hobi" value="Membaca"> Membaca <br>
+        <input type="checkbox" name="hobby[]" id="hobi" value="Mewarnai"> Mewarnai <br>
+        <input type="checkbox" name="hobby[]" id="hobi" value="Melukis"> Melukis <br>
+        <input type="checkbox" name="hobby[]" id="hovi" value="Bermain Game"> Bermain Game <br><br>
+        Gambar : 
+        <input type="file" name="file" id="file"> <br><br>
+        
+        <input type="submit" name="submit" value="KIRIM">
+    </form>
+</body>
+</html>
